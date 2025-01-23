@@ -39,6 +39,6 @@ CREATE TABLE Transaction (
     FOREIGN KEY (BookID) REFERENCES Books(BookID)
 );
 -- Relationships
--- 		Customer &Transaction: One customer can perform many transactions.
--- 		Books &Transaction: One book can appear in many transactions.
--- 		Books &Publisher: One publisher can publish many books.
+-- 	Customer &Transaction: One customer can perform many transactions.
+-- 	Books &Transaction: One book can appear in many transactions.
+-- 	Books &Publisher: One publisher can publish many books.
